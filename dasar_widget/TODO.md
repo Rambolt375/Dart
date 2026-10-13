@@ -1,0 +1,2 @@
+- [x] Fix static analysis warning in `lib/widgets/center_widget.dart`
+- [x] Fix failing test in `test/widget_test.dart`
