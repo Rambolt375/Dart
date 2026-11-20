@@ -145,13 +145,15 @@ class ColumnWidget extends StatelessWidget {
                   children: [
                     CircleAvatar(child: Text('5')),
                     SizedBox(width: 10),
-                    Text(
-                      'Column dengan mainAxisAlignment.start',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ), // TextStyle
-                    ), // Text
+                    Expanded(
+                      child: Text(
+                        'Column dengan mainAxisAlignment.start',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
                   ],
                 ), // Row
                 SizedBox(height: 10),
@@ -176,13 +178,15 @@ class ColumnWidget extends StatelessWidget {
                   children: [
                     CircleAvatar(child: Text('6')),
                     SizedBox(width: 10),
-                    Text(
-                      'Column dengan mainAxisAlignment.center',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ), // TextStyle
-                    ), // Text
+                    Expanded(
+                      child: Text(
+                        'Column dengan mainAxisAlignment.center',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ), // TextStyle
+                      ),
+                    ),
                   ],
                 ), // Row
                 SizedBox(height: 10),
@@ -207,13 +211,15 @@ class ColumnWidget extends StatelessWidget {
                   children: [
                     CircleAvatar(child: Text('7')),
                     SizedBox(width: 10),
-                    Text(
-                      'Column dengan mainAxisAlignment.end',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ), // TextStyle
-                    ), // Text
+                    Expanded(
+                      child: Text(
+                        'Column dengan mainAxisAlignment.end',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ), // TextStyle
+                      ),
+                    ),
                   ],
                 ), // Row
                 SizedBox(height: 10),
@@ -370,13 +376,15 @@ class ColumnWidget extends StatelessWidget {
                   children: [
                     CircleAvatar(child: Text('12')),
                     SizedBox(width: 10),
-                    Text(
-                      'Column dengan crossAxisAlignment.center',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ), // TextStyle
-                    ), // Text
+                    Expanded(
+                      child: Text(
+                        'Column dengan crossAxisAlignment.center',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ), // TextStyle
+                      ),
+                    ),
                   ],
                 ), // Row
                 SizedBox(height: 10),
@@ -401,13 +409,15 @@ class ColumnWidget extends StatelessWidget {
                   children: [
                     CircleAvatar(child: Text('13')),
                     SizedBox(width: 10),
-                    Text(
-                      'Column dengan crossAxisAlignment.end',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ), // TextStyle
-                    ), // Text
+                    Expanded(
+                      child: Text(
+                        'Column dengan crossAxisAlignment.end',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ), // TextStyle
+                      ), // Text
+                    ),
                   ],
                 ), // Row
                 SizedBox(height: 10),

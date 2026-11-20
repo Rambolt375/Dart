@@ -1,4 +1,5 @@
 import 'package:dasar_widget/widgets/tugas1_widget.dart';
+import 'package:dasar_widget/widgets/tugas2_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:dasar_widget/widgets/text_widget.dart';
 import 'package:dasar_widget/widgets/container_widget.dart';
@@ -529,7 +530,14 @@ class MenuPage extends StatelessWidget {
                       ),
                     ),
                     ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Tugas2Widget(),
+                          ),
+                        );
+                      },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.yellow,
                         foregroundColor: const Color(0xFF2196F3),
